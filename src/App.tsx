@@ -1,11 +1,11 @@
 import styled from 'styled-components'
-import { BsThreeDotsVertical } from 'react-icons/bs'
 import ContactList from './components/ContactList'
 import Conversation from './components/Conversation'
+import './index.css';
 
 const Container = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 100vh;
   width: 100%;
 `;
@@ -17,8 +17,10 @@ function App() {
 
   return (
    <Container>
+    <ContactList />
     
     
+    <Conversation />
     </Container>
   )
 }
