@@ -25,6 +25,7 @@ const ContactInfo = styled.div`
 `;
 
 const ContactName = styled.span`
+    font-weight: 600;
     font-size: 16px;
     color: #000;
 `;
@@ -32,7 +33,7 @@ const ContactName = styled.span`
 const MessageText = styled.span`
     font-size: 14px;
     margin-top: 3px;
-    color: rgba(0,0,0,0.8);
+    color: grey;
 `;
 
 const MessageTime = styled.span`
@@ -48,7 +49,7 @@ const Messages = () => {
         <ContactItem>
             <ProfileIcon src={Elon} />
             <ContactInfo>
-                <ContactName>Elon Musk</ContactName>
+                <ContactName>William</ContactName>
                 <MessageText>Agilli ol!</MessageText>
             </ContactInfo>
                 <MessageTime>22.01.2023</MessageTime>

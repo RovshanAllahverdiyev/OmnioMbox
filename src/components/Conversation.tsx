@@ -10,14 +10,15 @@ const Container = styled.div`
     flex-direction: column;
     height: 100%;
     flex: 3;
-    background: #f6f7f8;
+    background: #f7f8fd;
 `;
 
 const ProfileHeader = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: #ededed;
+  background: #fff;
+  border-bottom: 1px solid rgba(0,0,0,0.14);
   padding: 10px;
 `;
 
@@ -45,7 +46,9 @@ const ProfileName = styled.span`
   `;
 
 const RightSide = styled.div`
-  display: flex
+  display: flex;
+  gap: 40px;
+  align-items: center;
   `;
 
 const OkeyIcon = styled.img`
@@ -53,7 +56,7 @@ const OkeyIcon = styled.img`
   height: 20px;
   bakcground: transparent;
   border-radius: 50%; 
-  margin: 0 30px 0px 30px;
+  // margin: 0 30px 0px 30px;
   `;
 
 const ProfilePhoto = styled.img`
@@ -87,7 +90,7 @@ function Conversation() {
           <ProfilePhoto src={Jeff} />
           Jeff 
           <OkeyIcon src={Okey} />
-          <AiOutlineSearch style={{ width: '20px', height: '20px', marginRight: '30px' }} />
+          <AiOutlineSearch  />
         </RightSide>
       </ProfileHeader>
       
