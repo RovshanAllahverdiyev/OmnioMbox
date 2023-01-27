@@ -27,8 +27,7 @@ const Logo = styled.div`
 `;
 
 const BgDotIcon = styled.div`
-  width: 30px;
-  height: 30px;
+  padding: 5px;
   background: #f2f4ff;
   border-radius: 50%;
 `;
